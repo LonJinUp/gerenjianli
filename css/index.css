@@ -1,0 +1,415 @@
+/*
+* @Author: 陇锦
+* @Date:   2017-12-12 14:28:35
+* @Last Modified by:   陇锦
+* @Last Modified time: 2017-12-14 21:31:02
+*/
+@import url(base.css);
+
+@font-face {
+  font-family: 'iconfont';  /* project id 506295 */
+  src: url('https://at.alicdn.com/t/font_506295_e21mudp8w6yfogvi.eot');
+  src: url('https://at.alicdn.com/t/font_506295_e21mudp8w6yfogvi.eot?#iefix') format('embedded-opentype'),
+  url('https://at.alicdn.com/t/font_506295_e21mudp8w6yfogvi.woff') format('woff'),
+  url('https://at.alicdn.com/t/font_506295_e21mudp8w6yfogvi.ttf') format('truetype'),
+  url('https://at.alicdn.com/t/font_506295_e21mudp8w6yfogvi.svg#iconfont') format('svg');
+}
+
+.iconfont{
+
+    font-family: iconfont;
+}
+
+.tiaojiedaxiao{
+	display: block;
+
+	font-size: 36px;
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+.about{
+	padding:120px 0;
+	background:#fff;
+}
+
+.about_head{
+	max-width: 600px;
+/* 	background: yellow; */
+	margin: 0 auto;
+	margin-bottom: 35px;
+}
+
+
+.about_head h1{
+	font-size: 36px;
+	color: #000;
+	text-align: center;
+}
+
+.about_head p{
+	font-size: 30px;
+	color: #000;
+	text-align: center;
+
+}
+
+.about-tu img{
+	display: block;
+
+	height: 100%;
+	width: 100%;
+}
+
+
+.xiamianliuge{
+	padding-top: 120px;
+    padding-bottom: 120px;
+	background: #F3F3F4;
+}
+
+.liugebiaoti h1{
+	font-size: 34px;
+	color: #000;
+	text-align: center;
+	margin-bottom: 10px;
+
+}
+
+.liugebiaoti p{
+    width: 500px;
+	font-size: 12px;
+	color: #868989;
+	text-align: center;
+	margin: 0 auto;
+	padding-bottom: 24px;
+
+}
+
+.firstbox{
+	background: #fff;
+	padding: 30px;
+	margin-bottom: 30px;
+	transition: all 0.7s;
+}
+
+.firstbox p{
+	text-align: center;
+}
+
+
+.firstbox h4{
+	font-size: 24px;
+	color: #000;
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+.firstbox span{
+	display: block;
+	font-size: 14px;
+	color: #55575d;
+	text-align: center;
+}
+
+
+
+
+.firstbox:hover{
+	box-shadow: 0px 10px 10px 5px rgba(159, 159, 156, 0.6);
+	transform: translateY(-5px);
+}
+
+
+/* 个人作品开始 */
+.gerenzuopin{
+	padding-top: 120px;
+    padding-bottom: 120px;
+	background: #F3F3F4;
+
+}   
+
+.zuopinhezi{
+	padding: 30px;
+	margin-bottom: 30px;
+}
+
+.pg{
+	width: 100%;
+	height: 250px;
+	margin-bottom: 20px;
+	/* position: relative;
+ */}
+
+.tupian{
+	height: 250px;
+	position: relative;
+	overflow: hidden;
+	margin-bottom: 20px;
+}
+
+.texiao1{
+	width: 100%;
+	height: 250%;
+	position: absolute;
+	top: 0;
+	left:0;
+	background: rgba(57, 54, 54, 0);
+	transition: 0.5s;
+ 
+}
+
+.tupian:hover .texiao1{
+	background: rgba(57, 54, 54, 0.5);
+}
+
+
+
+.xiaoguowenzi{
+
+	width: 100%;
+	height: 250px;
+    position: absolute;
+	bottom: 250px;
+	left:0;
+	transition: 0.5s;
+}
+
+.tupian:hover .xiaoguowenzi{
+
+	bottom:0px;
+	left:0;
+}
+.logoshezhi:hover{
+    transform: scale(1.4, 1.4);
+    color: #2c79f9;
+
+
+}
+
+
+.logoshezhi{
+	display: block;
+	font-size: 40px;
+	color: #fff;
+	text-align: center;
+	margin-top: 30px;
+	transition: 0.5s;
+}
+.zpwz{
+	display: block;
+	font-size: 30px;
+	color: #fff;
+	text-align: center;
+	margin-top: 20px;
+
+}
+.zpwz2{
+	display: block;
+	font-size: 20px;
+	color: #fff;
+	text-align: center;
+	margin-top: 20px;
+	
+}
+/* 个人作品结束 */
+
+/* 联系我 */
+.lianxiwo{
+	padding-top: 120px;
+    padding-bottom: 120px;
+	background: #fff;
+}
+
+
+
+.mingzikuang{
+
+
+
+	background: #F3F3F4;
+	width: 100%;
+    border: 1px solid #000;
+    border-radius: 3px;
+    outline: none;
+    font-size: 15px;
+    line-height: 24px;
+    font-weight: 500;
+    color: #000;
+    margin-bottom: 20px;
+    padding: 10px 15px;
+    box-sizing: border-box;
+    resize: vertical;
+
+}
+.tijiao{
+	padding: 10px 30px;
+	background: #1a1a1a;
+	border: 0;
+	border-radius: 2px;
+	color: #fff;
+}
+
+
+.dizhi{
+	width: 100%;
+	height: 60px;
+	margin-bottom: 30px;
+
+
+
+}
+
+.dizhitubiao{
+	display: block;
+    height: 60px;
+    width: 60px;
+    background-color: #f6f6f6;
+    color: #55575d;
+    font-size: 36px;
+    text-align: center;
+    float: left;
+}
+
+.tubiaotiaojie{
+	color: #55575d;
+    font-size: 36px;
+    text-align: center;
+    line-height: 60px;
+}
+
+.dizhiwenzi{
+	font-size: 15px;
+    line-height: 26px;
+    font-weight: 500;
+    color: #959595;
+    margin: 0px;
+    float: left;
+    margin-left: 7px;
+}
+
+.tijiao:hover{
+	cursor:pointer;
+}
+
+
+/* 联系我结束 */
+
+
+/* d底部开始 */
+
+footer{
+	background-color: #0d1218;
+    color: #fff;
+    padding: 42px 0px;
+    position: relative;
+}
+
+.wangguan{
+	padding: 6px 0px;
+}
+/* footer ul li {
+    list-style: none;
+    display: inline-block;
+    float: left;
+    margin-right: 5px;
+} */
+/* footer ul {
+    float: right;
+    margin: 0px;
+} */
+footer ul{
+	float: right;
+	margin: 0px;
+}
+
+footer ul li{
+	float: right;
+	margin-right: 5px;
+}
+
+
+footer ul li a {
+    display: inline-block;
+    font-size: 16px;
+    line-height: 38px;
+    color: #252525;
+    height: 36px;
+    width: 36px;
+    background-color: rgba(255, 255, 255, .5);
+    border-radius: 100%;
+    text-align: center;
+
+}
+footer ul li a:hover{
+	background: #226efa;
+	color: #fff;
+}
+
+.jiantoubiaoqian{
+	display: block;
+	width: 36px;
+	height: 36px;
+	background:#0d1218;
+	position: absolute;
+    right: 50%;
+    top: -18px;
+    transform: rotate(45deg)
+}
+
+.tiaoji154e{
+	display: block;
+	transform: rotate(-45deg);
+	line-height: 36px;
+	text-align: center;
+	color: #fff;
+	font-weight: bold;
+}
+
+.jiantoubiaoqian:hover{
+	background: #226efa;
+
+} 
+.jiantoubiaoqian:hover.tiaoji154e{
+	color: #000;
+}
+
+/* 底部结束 */
+/* 手机端 <768px */
+@media screen and (max-width: 768px) {
+	.about-jianli h1{
+
+	    margin-top: 20px;
+    }
+	.dizhi{
+		margin-top: 10px;
+	}
+}
+
+/* 768-992 平板端 col-sm-*/
+@media screen and (min-width: 768px) and (max-width: 992px){
+	.about-jianli h1{
+	margin-top: 20px;
+    }
+
+}
+
+
+/* 992-1200  pc小屏 col-md- */
+@media screen and (min-width: 992px) and (max-width: 1200px){
+
+}
+
+/* 大于1200 pc大屏 col-lg-*/
+@media screen and (min-width: 1200px){
+
+}
